@@ -5,10 +5,10 @@ app = Flask(__name__)
 app.secret_key ='InternA7coder'
 # Create a MySQL connection
 connection = mysql.connector.connect(
-    host='localhost',
-    user='root',
+    host='a7coder.mysql.pythonanywhere-services.com',
+    user='a7coder',
     password='',
-    database='test'
+    database='a7coder$test'
 )
 
 # Create the "words" table if it doesn't exist
