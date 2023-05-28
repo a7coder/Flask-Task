@@ -7,7 +7,7 @@ app.secret_key ='InternA7coder'
 connection = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='mdobi07/01/2004',
+    password='',
     database='test'
 )
 
